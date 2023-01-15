@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "green packet",
+	"description": "A rare resource.",
+	"cost": 0.0,
+	"hardness": 0,
+	"color": "008000"
+}
