@@ -1,1 +1,45 @@
+{
+    type: "multicraft.MultiCrafter",
 
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: [
+                "copper-ingot/8"
+                "iron-ingot/8"
+            ],
+            output: "redpacket/1",
+            craftTime: 3600 
+        },
+        {
+            input: {
+                items: [
+                    "graphite/5",
+                    "silicon/5" 
+                ],
+            },
+            output: "greenpackets/1",
+            craftTime: 7200 //120 seconds
+        }
+    ],
+
+    research: {
+        // Unlocked on: 1st sector
+        parent: "MinTorio-drop-pod",
+        requirements: [
+         "graphite/300",
+        "silicon/150"
+        ],
+        objectives: [
+        ]
+    },
+
+    requirements: [
+        "graphite/50",
+        "silicon/50"
+    ],
+
+}
