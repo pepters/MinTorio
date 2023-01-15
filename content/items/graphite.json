@@ -1,0 +1,8 @@
+{
+    "type": "material",
+    "name": "graphite",
+    "description": "A rare resource.",
+    "cost": 0.0,
+    "hardness": 0,
+    "color": "6495ed"
+}
