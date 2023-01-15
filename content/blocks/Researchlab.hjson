@@ -1,9 +1,9 @@
 {
 	"type": "GenericSmelter",
 	"name": "ResearchLab",
-    "category": "crafting",
+        "category": "crafting",
 	"description": "-",
-	"outputItem": {"item": "greenpacket", "amount": 1},
+	"outputItem": {"item": "green", "amount": 1},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
